@@ -17,7 +17,7 @@ $(document).ready(function()
     }
     else
     {
-      $('#load-more-content').text('Load some content');
+      $('#load-more-content').text('FIND OUT MORE');
       $('#more-content').fadeOut('slow', function()
       {
         $('#load-more-content').fadeIn('slow');

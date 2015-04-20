@@ -135,7 +135,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	background:url('../img/slide1.jpg') 40% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	margin: 0;
@@ -151,12 +151,22 @@ background-size: auto;
 }
 
 #slide2{
-	background-color: #fff;
+	background-color: yellow;
 	color: #333333;
 	height: 300px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
+}
+@media screen and (max-width: 500px) {
+#slide2{
+        background-color: lightblue;
+        color: #333333;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+    }
 }
 
 #slide3{
@@ -165,6 +175,19 @@ background-size: auto;
 	height: 600px;
 	padding: 170px 0 0 0;	
 	background-size: cover;
+
+
+}
+@media screen and (max-width: 500px) {
+#slide3{
+	background: url(../img/slide3mobile.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;	
+	background-size: cover;
+
+
+}
 }
 
 #slide4{
@@ -173,6 +196,8 @@ background-size: auto;
 	height: 300px;
 	padding: 200px 0;
 }
+
+
 
 #slide5{
 	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;

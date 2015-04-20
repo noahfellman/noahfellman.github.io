@@ -158,7 +158,7 @@ background-size: auto;
 	overflow: hidden;
 	padding: 200px 0;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 #slide2{
         background-color: lightblue;
         color: #333333;
@@ -178,7 +178,7 @@ background-size: auto;
 
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 #slide3{
 	background: url(../img/slide3mobile.jpg) 50% 0 no-repeat fixed;
 	color: #fff;

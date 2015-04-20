@@ -140,7 +140,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height: 600px;
 	margin: 0;
 	padding: 200px 0 260px 0;
-	background-size: cover;
+	background-attachment: scroll;
+background-position: top;
+-webkit-background-size: auto;
+-moz-background-size: auto;
+background-size: auto;
+	
+	
+	
 }
 
 #slide2{
@@ -174,6 +181,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	padding: 250px 0;
 	color: #fff;
 	background-size: cover;
+}
+#slide6{
+	background-color: #fff;
+	color: #333333;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
 }
 
 

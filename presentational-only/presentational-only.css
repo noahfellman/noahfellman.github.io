@@ -70,12 +70,14 @@ blockquote cite {
   height: 40px;
   z-index: 9999;
   position: fixed;
+  font-size: 14px;
 }
 
   .inner {
     position: relative;
     margin: 0 auto;
     text-align: center;
+
   }
 
 .navbar a {
@@ -122,6 +124,23 @@ blockquote cite {
   text-transform: uppercase;
 
 }
+
+
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 40px;
+  z-index: 9999;
+  font-size: 14px;
+  font-family: "Cantarell", sans-serif;
+  padding:2px;
+}
+
+
+
+
+
 
 #more-content {
   display: none;

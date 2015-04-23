@@ -132,9 +132,9 @@ footer {
   background-color: rgba(0, 0, 0, 0.6);
   height: 30px;
   z-index: 9999;
-  font-size: 10px;
-  font-family: "ARIAL", sans-serif;
-  padding:2px;
+  font-size: 8px;
+  font-family: "ARIAL";
+  padding:5px;
   text-align: right;
 }
 

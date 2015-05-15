@@ -1,0 +1,53 @@
+{
+  "layerInfos": [
+    {
+      "name": "Ashley - Points",
+      "id": "Ashley_8406",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/0",
+        "fields": [
+          {
+            "show": true,
+            "name": "Label",
+            "alias": "label"
+          },
+          {
+            "show": true,
+            "name": "Notes",
+            "alias": "notes"
+          },
+          {
+            "show": true,
+            "name": "DateStart",
+            "alias": "datestart"
+          },
+          {
+            "show": true,
+            "name": "DateEnd",
+            "alias": "dateend"
+          },
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "objectid"
+          },
+          {
+            "show": false,
+            "name": "GlobalID",
+            "alias": ""
+          }
+        ]
+      },
+      "show": true
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false
+}

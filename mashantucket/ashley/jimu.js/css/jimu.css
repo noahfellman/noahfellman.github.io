@@ -653,7 +653,7 @@ css for the dijits
   line-height:20px;
 }
 .jimu-loading-shelter .loading-container{
-  color:black;
+  color:#000000;
   position:absolute;
   top:50%;
   left:50%;

@@ -25,7 +25,7 @@ function(declare, _WidgetBase, _TemplatedMixin, template, html) {
     'baseClass': 'jimu-loading-shelter',
     declaredClass: 'jimu.dijit.LoadingShelter',
     templateString: template,
-    loadingText:null,
+    loadingText:"WhatsUP",
     hidden:false,
 
     postMixInProperties:function(){

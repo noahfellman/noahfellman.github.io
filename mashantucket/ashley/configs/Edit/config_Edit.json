@@ -1,0 +1,51 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": false,
+    "toolbarOptions": {
+      "mergeVisible": true,
+      "cutVisible": true,
+      "reshapeVisible": true
+    },
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/0"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Label",
+            "label": "Label",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Notes",
+            "label": "Notes",
+            "isEditable": true
+          },
+          {
+            "fieldName": "DateStart",
+            "label": "DateStart",
+            "isEditable": true
+          },
+          {
+            "fieldName": "DateEnd",
+            "label": "DateEnd",
+            "isEditable": true
+          },
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false
+          }
+        ]
+      }
+    ]
+  }
+}

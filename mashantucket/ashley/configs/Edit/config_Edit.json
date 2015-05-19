@@ -258,49 +258,6 @@
       },
       {
         "featureLayer": {
-          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/6"
-        },
-        "disableGeometryUpdate": false,
-        "fieldInfos": [
-          {
-            "fieldName": "Label",
-            "label": "Label",
-            "isEditable": true
-          },
-          {
-            "fieldName": "FortType",
-            "label": "FortType",
-            "isEditable": true
-          },
-          {
-            "fieldName": "Notes",
-            "label": "Notes",
-            "isEditable": true
-          },
-          {
-            "fieldName": "DateStart",
-            "label": "DateStart",
-            "isEditable": true
-          },
-          {
-            "fieldName": "DateEnd",
-            "label": "DateEnd",
-            "isEditable": true
-          },
-          {
-            "fieldName": "OBJECTID",
-            "label": "OBJECTID",
-            "isEditable": false
-          },
-          {
-            "fieldName": "GlobalID",
-            "label": "GlobalID",
-            "isEditable": false
-          }
-        ]
-      },
-      {
-        "featureLayer": {
           "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/7"
         },
         "disableGeometryUpdate": false,
@@ -483,6 +440,49 @@
       },
       {
         "featureLayer": {
+          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/6"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Label",
+            "label": "Label",
+            "isEditable": true
+          },
+          {
+            "fieldName": "FortType",
+            "label": "FortType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Notes",
+            "label": "Notes",
+            "isEditable": true
+          },
+          {
+            "fieldName": "DateStart",
+            "label": "DateStart",
+            "isEditable": true
+          },
+          {
+            "fieldName": "DateEnd",
+            "label": "DateEnd",
+            "isEditable": true
+          },
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false
+          }
+        ]
+      },
+      {
+        "featureLayer": {
           "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/11"
         },
         "disableGeometryUpdate": false,
@@ -531,7 +531,7 @@
       },
       {
         "featureLayer": {
-          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/12"
+          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/13"
         },
         "disableGeometryUpdate": false,
         "fieldInfos": [
@@ -579,7 +579,7 @@
       },
       {
         "featureLayer": {
-          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/13"
+          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/12"
         },
         "disableGeometryUpdate": false,
         "fieldInfos": [

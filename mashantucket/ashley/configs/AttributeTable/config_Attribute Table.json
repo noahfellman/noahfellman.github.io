@@ -1,11 +1,16 @@
 {
   "layerInfos": [
     {
-      "name": "Ashley - Points",
-      "id": "Ashley_8406",
+      "name": "General Points",
+      "id": "Ashley_8698",
       "layer": {
         "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/0",
         "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "objectid"
+          },
           {
             "show": true,
             "name": "Label",
@@ -28,13 +33,688 @@
           },
           {
             "show": false,
-            "name": "OBJECTID",
-            "alias": "objectid"
-          },
-          {
-            "show": false,
             "name": "GlobalID",
             "alias": ""
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Engagements",
+      "id": "Ashley_7515",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Forts",
+      "id": "Ashley_4845",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "FortType",
+            "alias": "forttype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Military Camps",
+      "id": "Ashley_3442",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "CampType",
+            "alias": "camptype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Treatment Facility",
+      "id": "Ashley_8863",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Burials",
+      "id": "Ashley_2130",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "BurialType",
+            "alias": "burialtype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Pre Existing Infrastructure",
+      "id": "Ashley_62",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/7",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "InfraType",
+            "alias": "infratype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Created Infrastructure",
+      "id": "Ashley_9609",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/8",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "InfraType",
+            "alias": "infratype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Destroyed Infrastructure",
+      "id": "Ashley_8323",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/9",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "InfraType",
+            "alias": "infratype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Adandoned Infrastructure",
+      "id": "Ashley_1292",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/10",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "InfraType",
+            "alias": "infratype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "name",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Epicenter",
+      "id": "Ashley_3370",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/6",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Mortality",
+      "id": "Ashley_5462",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/11",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "MortalityType",
+            "alias": "mortalitytype",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "Names",
+            "alias": "names",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Morbidity (Injury)",
+      "id": "Ashley_1661",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/13",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "MorbidityType",
+            "alias": "morbiditytype",
+            "show": true
+          },
+          {
+            "name": "Names",
+            "alias": "names",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Morbidity (WIA)",
+      "id": "Ashley_8316",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/12",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "MorbidityType",
+            "alias": "morbiditytype",
+            "show": true
+          },
+          {
+            "name": "Names",
+            "alias": "names",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Morbidity (Disease)",
+      "id": "Ashley_6305",
+      "layer": {
+        "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/14",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "Label",
+            "alias": "label",
+            "show": true
+          },
+          {
+            "name": "MorbidityType",
+            "alias": "morbiditytype",
+            "show": true
+          },
+          {
+            "name": "Names",
+            "alias": "names",
+            "show": true
+          },
+          {
+            "name": "Notes",
+            "alias": "notes",
+            "show": true
+          },
+          {
+            "name": "DateStart",
+            "alias": "datestart",
+            "show": true
+          },
+          {
+            "name": "DateEnd",
+            "alias": "dateend",
+            "show": true
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false
           }
         ]
       },

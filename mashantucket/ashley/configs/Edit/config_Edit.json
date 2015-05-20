@@ -58,13 +58,8 @@
             "isEditable": true
           },
           {
-            "fieldName": "MortalityType",
-            "label": "MortalityType",
-            "isEditable": true
-          },
-          {
-            "fieldName": "Names",
-            "label": "Names",
+            "fieldName": "Name",
+            "label": "Name",
             "isEditable": true
           },
           {
@@ -106,8 +101,13 @@
             "isEditable": true
           },
           {
-            "fieldName": "CampType",
-            "label": "CampType",
+            "fieldName": "FortType",
+            "label": "FortType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Name",
+            "label": "Name",
             "isEditable": true
           },
           {
@@ -149,8 +149,13 @@
             "isEditable": true
           },
           {
-            "fieldName": "BurialType",
-            "label": "BurialType",
+            "fieldName": "CampType",
+            "label": "CampType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Name",
+            "label": "Name",
             "isEditable": true
           },
           {
@@ -192,6 +197,11 @@
             "isEditable": true
           },
           {
+            "fieldName": "Name",
+            "label": "Name",
+            "isEditable": true
+          },
+          {
             "fieldName": "Notes",
             "label": "Notes",
             "isEditable": true
@@ -227,6 +237,16 @@
           {
             "fieldName": "Label",
             "label": "Label",
+            "isEditable": true
+          },
+          {
+            "fieldName": "BurialType",
+            "label": "BurialType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Name",
+            "label": "Name",
             "isEditable": true
           },
           {
@@ -268,6 +288,21 @@
             "isEditable": true
           },
           {
+            "fieldName": "MortalityType",
+            "label": "MortalityType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Names",
+            "label": "Names",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Quantity",
+            "label": "Quantity",
+            "isEditable": true
+          },
+          {
             "fieldName": "Notes",
             "label": "Notes",
             "isEditable": true
@@ -306,8 +341,18 @@
             "isEditable": true
           },
           {
-            "fieldName": "InfraType",
-            "label": "InfraType",
+            "fieldName": "MorbidityType",
+            "label": "MorbidityType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Names",
+            "label": "Names",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Quantity",
+            "label": "Quantity",
             "isEditable": true
           },
           {
@@ -323,11 +368,6 @@
           {
             "fieldName": "DateEnd",
             "label": "DateEnd",
-            "isEditable": true
-          },
-          {
-            "fieldName": "Name",
-            "label": "Name",
             "isEditable": true
           },
           {
@@ -354,8 +394,18 @@
             "isEditable": true
           },
           {
-            "fieldName": "InfraType",
-            "label": "InfraType",
+            "fieldName": "MorbidityType",
+            "label": "MorbidityType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Names",
+            "label": "Names",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Quantity",
+            "label": "Quantity",
             "isEditable": true
           },
           {
@@ -371,11 +421,6 @@
           {
             "fieldName": "DateEnd",
             "label": "DateEnd",
-            "isEditable": true
-          },
-          {
-            "fieldName": "Name",
-            "label": "Name",
             "isEditable": true
           },
           {
@@ -402,8 +447,18 @@
             "isEditable": true
           },
           {
-            "fieldName": "InfraType",
-            "label": "InfraType",
+            "fieldName": "MorbidityType",
+            "label": "MorbidityType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Names",
+            "label": "Names",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Quantity",
+            "label": "Quantity",
             "isEditable": true
           },
           {
@@ -419,11 +474,6 @@
           {
             "fieldName": "DateEnd",
             "label": "DateEnd",
-            "isEditable": true
-          },
-          {
-            "fieldName": "Name",
-            "label": "Name",
             "isEditable": true
           },
           {
@@ -447,11 +497,6 @@
           {
             "fieldName": "Label",
             "label": "Label",
-            "isEditable": true
-          },
-          {
-            "fieldName": "FortType",
-            "label": "FortType",
             "isEditable": true
           },
           {
@@ -493,61 +538,13 @@
             "isEditable": true
           },
           {
-            "fieldName": "MortalityType",
-            "label": "MortalityType",
+            "fieldName": "InfraType",
+            "label": "InfraType",
             "isEditable": true
           },
           {
-            "fieldName": "Notes",
-            "label": "Notes",
-            "isEditable": true
-          },
-          {
-            "fieldName": "Names",
-            "label": "Names",
-            "isEditable": true
-          },
-          {
-            "fieldName": "DateStart",
-            "label": "DateStart",
-            "isEditable": true
-          },
-          {
-            "fieldName": "DateEnd",
-            "label": "DateEnd",
-            "isEditable": true
-          },
-          {
-            "fieldName": "OBJECTID",
-            "label": "OBJECTID",
-            "isEditable": false
-          },
-          {
-            "fieldName": "GlobalID",
-            "label": "GlobalID",
-            "isEditable": false
-          }
-        ]
-      },
-      {
-        "featureLayer": {
-          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/13"
-        },
-        "disableGeometryUpdate": false,
-        "fieldInfos": [
-          {
-            "fieldName": "Label",
-            "label": "Label",
-            "isEditable": true
-          },
-          {
-            "fieldName": "MorbidityType",
-            "label": "MorbidityType",
-            "isEditable": true
-          },
-          {
-            "fieldName": "Names",
-            "label": "Names",
+            "fieldName": "Name",
+            "label": "Name",
             "isEditable": true
           },
           {
@@ -584,18 +581,66 @@
         "disableGeometryUpdate": false,
         "fieldInfos": [
           {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": true
+          },
+          {
             "fieldName": "Label",
             "label": "Label",
             "isEditable": true
           },
           {
-            "fieldName": "MorbidityType",
-            "label": "MorbidityType",
+            "fieldName": "InfraType",
+            "label": "InfraType",
             "isEditable": true
           },
           {
-            "fieldName": "Names",
-            "label": "Names",
+            "fieldName": "Notes",
+            "label": "Notes",
+            "isEditable": true
+          },
+          {
+            "fieldName": "DateStart",
+            "label": "DateStart",
+            "isEditable": true
+          },
+          {
+            "fieldName": "DateEnd",
+            "label": "DateEnd",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Name",
+            "label": "Name",
+            "isEditable": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "url": "https://services2.arcgis.com/nci1PJMm3H95R761/arcgis/rest/services/Ashley/FeatureServer/13"
+        },
+        "disableGeometryUpdate": false,
+        "fieldInfos": [
+          {
+            "fieldName": "Label",
+            "label": "Label",
+            "isEditable": true
+          },
+          {
+            "fieldName": "InfraType",
+            "label": "InfraType",
+            "isEditable": true
+          },
+          {
+            "fieldName": "Name",
+            "label": "Name",
             "isEditable": true
           },
           {
@@ -637,13 +682,13 @@
             "isEditable": true
           },
           {
-            "fieldName": "MorbidityType",
-            "label": "MorbidityType",
+            "fieldName": "InfraType",
+            "label": "InfraType",
             "isEditable": true
           },
           {
-            "fieldName": "Names",
-            "label": "Names",
+            "fieldName": "Name",
+            "label": "Name",
             "isEditable": true
           },
           {

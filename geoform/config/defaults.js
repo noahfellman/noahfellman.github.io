@@ -14,7 +14,7 @@ define({
         "id": ""
     },
     "details": {
-        "Title": "",
+        "Title": "Hey, new title!",
         "Logo": "",
         "Description": ""
     },
@@ -44,7 +44,7 @@ define({
     "attachmentLabel": "",
     "attachmentHelpText": "",
     "showLayer": true,
-    "disableLogo": false,
+    "disableLogo": true,
     "locate":false,
     "locationSearchOptions": {
         "enableMyLocation": true,

@@ -20,7 +20,7 @@ define({
     },
     "fields": {
     },
-    "theme": "cosmo", // see values in themes.js
+    "theme": "journal", // see values in themes.js
     "oauthappid": null,
     //Enter the url to the proxy if needed by the applcation. See the "Using the proxy page" help topic for details
     // //developers.arcgis.com/en/javascript/jshelp/ags_proxy.html
@@ -43,7 +43,7 @@ define({
     "attachmentIsRequired": false,
     "attachmentLabel": "",
     "attachmentHelpText": "",
-    "showLayer": true,
+    "showLayer": false,
     "disableLogo": true,
     "locate":false,
     "locationSearchOptions": {

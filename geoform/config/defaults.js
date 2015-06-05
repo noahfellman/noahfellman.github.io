@@ -52,7 +52,7 @@ define({
         "enableLatLng": true,
         "enableUSNG": false,
         "enableMGRS": false,
-        "enableUTM": false
+        "enableUTM": true
     },
     "attachmentInfo":{
     },

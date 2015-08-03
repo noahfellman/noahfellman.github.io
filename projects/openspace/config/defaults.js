@@ -28,7 +28,7 @@ define({
   "proxyurl": "",
   "theme": "#f7f8f8",
   "color": "#4c4c4c",
-  "title": null,
+  "title": "Hello",
   "drawerSize": null,
   "bingKey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
   //Defaults to arcgis.com. Set this value to your portal or organization host name.
@@ -36,10 +36,10 @@ define({
   "units": null,
   //If your applcation needs to edit feature layer fields set this value to true. When false the map will
   //be dreated with layers that are not set to editable which allows the FeatureLayer to load features optimally. 
-  "editable": false,
+  "editable": true,
   "edittoolbar": false,
-  "basemap": false,
-  "alt_basemap": null,
+  "basemap": true,
+  "alt_basemap": "Satellite",
   "home": true,
   "locate": false,
   "locatetrack": false,

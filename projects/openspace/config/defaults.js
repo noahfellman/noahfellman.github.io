@@ -28,7 +28,7 @@ define({
   "proxyurl": "",
   "theme": "#f7f8f8",
   "color": "#4c4c4c",
-  "title": "Hello",
+  "title": "Hello2",
   "drawerSize": null,
   "bingKey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
   //Defaults to arcgis.com. Set this value to your portal or organization host name.
@@ -39,7 +39,7 @@ define({
   "editable": true,
   "edittoolbar": false,
   "basemap": true,
-  "alt_basemap": "Satellite",
+  "alt_basemap": "satellite",
   "home": true,
   "locate": false,
   "locatetrack": false,

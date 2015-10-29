@@ -39,7 +39,7 @@ define([], function() {
         "units": null, 
         //Enter text here that will display in the title section. 
         //If not specified the web map title is used. 
-        "title": null, 
+        "title": "CT Properties", 
         //Enter text here that will display in the about panel 
         //If not specified the web map description is used. 
         //When true the locate button is displayed on the map. 

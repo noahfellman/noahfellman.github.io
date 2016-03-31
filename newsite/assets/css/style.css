@@ -308,6 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: lighter;
 	margin-top: 15px;
 	letter-spacing: 2px;
+
 }
 
 .name-label {
@@ -332,6 +333,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 40px;
 	line-height: 1.45;
 	font-weight: 300;
+
+
 }
 
 /* Separator About - Parallax Section */

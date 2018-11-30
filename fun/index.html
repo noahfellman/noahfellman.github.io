@@ -3,8 +3,117 @@
   <head>
     <meta charset="utf-8">
     <title>Fun stuff!</title>
+
+  <style>
+  #projects {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  #projects td, #projects th {
+      border: 1px solid #ddd;
+      padding: 8px;
+  }
+
+  #projects tr:nth-child(even){background-color: #f2f2f2;}
+
+  #projects tr:hover {background-color: #ddd;}
+
+  #projects th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: steelblue;
+      color: white;
+  }
+
+
+
+
+  #projects2 {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  #projects2 td, #projects2 th {
+      border: 1px solid #ddd;
+      padding: 8px;
+  }
+
+  #projects2 tr:nth-child(even){background-color: #f2f2f2;}
+
+  #projects2 tr:hover {background-color: #ddd;}
+
+  #projects2 th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: yellow;
+      color: white;
+  }
+
+
+
+
+</style>
+
   </head>
   <body>
-    Here's where we're gonna have some links!
+    <table id="projects">
+      <tr>
+        <th>Web Project</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Comparison App</td>
+        <td>The classic compare two datasets webapp, built with AGOL</td>
+        <td><a href="swipe/index.html">Here</a></td>
+      </tr>
+      <tr>
+        <td>Editor</td>
+        <td>CRUD functions on a webmap to report cases of Lyme disease, built with AGOL</td>
+        <td><a href="editor/index.html">Here</a></td>
+      </tr>
+      <tr>
+        <td>D3 barchart</td>
+        <td>Classic barchart viz, showing birth rates in RI</td>
+        <td><a href="d3/index.html">Here</a></td>
+      </tr>
+      <tr>
+        <td>Leaflet webmap</td>
+        <td>A few points on a map using a different library</td>
+        <td></td>
+      </tr>
+
+
+
+    </table>
+<br>
+    <table id="projects2">
+      <tr>
+        <th>Print Project</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Museum exhibits</td>
+        <td>Map from Pequot War Gallery</td>
+        <td><a href="exhibits/AllBattleMarkUpFort">Here</a></td>
+      </tr>
+      <tr>
+        <td>Saybrook Report</td>
+        <td>NPS American Battlefield Protection Program, Battle of Saybrook Fort</td>
+        <td><a href="reports/Saybrook.pdf">Here</a></td>
+      </tr>
+
+
+
+
+
+    </table>
+
   </body>
 </html>
